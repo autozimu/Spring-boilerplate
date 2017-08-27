@@ -1,7 +1,12 @@
 # Development
-```
+```sh
 gradle compile --continuous  # Alternatively, setup automatic compile in IDE.
 gradle bootRun
+```
+
+# Debug
+```sh
+gradle bootRun --debug-jvm
 ```
 
 #

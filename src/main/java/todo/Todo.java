@@ -1,4 +1,4 @@
-package hello;
+package todo;
 
 import javax.persistence.*;
 
@@ -7,6 +7,7 @@ public class Todo {
     @Id
     @GeneratedValue
     public long id;
+
     @Column(nullable = false)
     public String content;
 }
